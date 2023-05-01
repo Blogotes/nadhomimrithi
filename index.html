@@ -1,0 +1,629 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+</style>
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="imrithi_proyek.css" rel="stylesheet">
+<style>
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 30px solid #FFFFFF;
+   border-image-source: url(images/framed-corners-1.png);
+   border-image-slice: 30;
+   border-image-width: 30px;
+   border-image-repeat: stretch;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid5
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid5 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 8px solid #FFFFFF;
+   border-image-source: url(images/framed-corners-3.png);
+   border-image-slice: 8;
+   border-image-width: 8px;
+   border-image-repeat: stretch;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid4 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#ListView1{
+   font-family: "LPMQ Isep Misbah";
+   font-weight: normal;
+   font-size: 0;
+   border-width: 0;
+   width: 100%;
+   height: 100%;
+}
+#ListView1 .ui-btn 
+{
+   margin: .5em 0;
+   padding: 12px 18px 12px 18px;
+   display: block;
+   position: relative;
+   text-align: center;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   cursor: pointer;
+}
+#ListView1 .ui-btn:link 
+{
+   text-decoration: none !important;
+}
+#ListView1 .ui-btn, label.ui-btn 
+{
+   border-width: 1px;
+   border-style: solid;
+}
+#ListView1, #ListView1 > li 
+{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-size: 20px;
+}
+#ListView1 > li 
+{
+   display: block;
+   position: relative;
+   overflow: visible;
+}
+#ListView1 > .ui-li-static, #ListView1 > .ui-li-divider, #ListView1 > li > a.ui-btn 
+{
+   margin: 0;
+   display: block;
+   position: relative;
+   text-align: left;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+#ListView1 > .ui-li-static, #ListView1 > .ui-li-divider, #ListView1 > li > a.ui-btn 
+{
+   border-style: solid;
+   border-width: 1px 1px 0 1px;
+   font-weight: normal;
+   text-align: right;
+}
+#ListView1 .ui-state-default
+{
+   color: #454545 !important;
+}
+#ListView1 .ui-state-hover
+{
+   color: #2B2B2B !important;
+}
+#ListView1 .ui-state-active
+{
+   color: #FFFFFF !important;
+}
+#ListView1 > .ui-li-divider 
+{
+   padding: 10px 10px 10px 10px;
+   cursor: default;
+   outline: 0;
+}
+#ListView1 > .ui-li-static 
+{
+   padding: 12px 18px 12px 18px;
+}
+#ListView1 > li.ui-first-child, #ListView1 > li.ui-first-child > a.ui-btn 
+{
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#ListView1 > li.ui-last-child, #ListView1 > li.ui-last-child > a.ui-btn
+{
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+#ListView1 > .ui-li-has-icon > .ui-btn, #ListView1 > .ui-li-static.ui-li-has-icon, #ListView1 > .ui-li-divider.ui-li-has-icon
+{
+   min-height: 0px;
+   padding-left: 36px;
+}
+#ListView1 > .ui-li-static.ui-last-child, #ListView1 > .ui-li-divider.ui-last-child, #ListView1 > li.ui-last-child > a.ui-btn 
+{
+   border-bottom-width: 1px;
+}
+#ListView1 > .ui-li-has-icon > img:first-child, #ListView1 > .ui-li-has-icon > .ui-btn > img:first-child 
+{
+   border-width: 0;
+   position: absolute;
+   left: 18px;
+   top: 12px;
+   max-width: 0px;
+   max-height: 0px;
+}
+#ListView1 p 
+{
+   margin: 0;
+   padding: 8px 0px 0px 0px;
+   font-size: 15px;
+   font-weight: normal;
+}
+#wb_ListView1
+{
+   margin: 0;
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Line2
+{
+   border-color: transparent;
+   border-style: solid;
+   border-bottom-width: 84px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 272px;
+   height: 121px;
+   vertical-align: top;
+}
+</style>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="listview.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#ListView1").listview(
+   {
+      inset: false
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image1" style="display:inline-block;width:272px;height:121px;z-index:0;">
+<img src="images/nadom aljurumiya alimrithi.jpg" id="Image1" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text3">
+<span style="color:#000000;font-family:'LPMQ Isep Misbah';font-size:27px;line-height:65px;">الدُّرَّةُ الْبَهِيَّةُ نَظْمُ الْمُقَدِّمَةِ الْآجُرُّومِيَّةِ</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_ListView1" style="display:inline-block;width:100%;z-index:2;">
+<ul id="ListView1" style="margin-top:0px;margin-bottom:0px;">
+<li><a href="./muqodimah.html">الْمُقَدِّمَةِ</a></li>
+<li><a href="./bab-kalam.html">بَابُ الْكَلَامِ</a></li>
+<li><a href="./bab-irob.html">بَابُ الْإِعْرَابِ</a></li>
+<li><a href="./alamatil-irob.html">بَابُ عَلَامَاتِ الْإِعْرَابِ</a></li>
+<li><a href="./alamti-nasbi.html">بَابُ عَلَامَاتِ النَّصْبِ</a></li>
+<li><a href="./alamtil-hofdi.html">بَابُ عَلَامَاتِ الْخَفْضِ</a></li>
+<li><a href="./alamt-jazm.html">بَابُ عَلَامَاتِ الْجَزْمِ</a></li>
+<li><a href="./faslun.html">فَصْلٌ</a></li>
+<li><a href="./bab-marifat-nakiroh.html">بَابُ الْمَعْرِفَةِ وَالنَّكِرَةِ</a></li>
+<li><a href="./bab-afal.html">بَابُ الْأَفْعَالِ</a></li>
+<li><a href="./irob-fiil.html">بَابُ إِعْرَابِ الْفِعْلِ</a></li>
+<li><a href="./marfuatil-asma.html">بَابُ مَرْفُوعَاتِ الْأَسْمَاءِ</a></li>
+<li><a href="./bab-naibul-fail.html">بَابُ نَائِبِ الْفَاعِلِ</a></li>
+<li><a href="./mubtada-hobar.html">بَابُ الْمُبْتَدَأِ وَالْخَبَرِ</a></li>
+<li><a href="./kana-dan-kawan.html">كَانَ وَأَخَوَاتُهَا</a></li>
+<li><a href="./inna-wa-ahwatiha.html">إِنَّ وَأَخَوَاتُهَا</a></li>
+<li><a href="./donna-wa-ahwatiha.html">ظَنَّ وَأَخَوَاتُهَا</a></li>
+<li><a href="./bab-naat.html">بَابُ النَّعْتِ</a></li>
+<li><a href="./bab-atof.html">بَابُ الْعَطْفِ</a></li>
+<li><a href="./bab-taukid.html">بَابُ التَّوْكِيدِ</a></li>
+<li><a href="./bab-badal.html">بَابُ الْبَدَلِ</a></li>
+<li><a href="./mangsubatil-asma.html">بَابُ مَنْصُوبَاتِ الْأَسْمَاءِ</a></li>
+<li><a href="./bab-masdar.html">بَابُ الْمَصْدَرِ</a></li>
+<li><a href="./dorof.html">بَابُ الظَّرْفِ</a></li>
+<li><a href="./bab-hal.html">بَابُ الْحَالِ</a></li>
+<li><a href="./tamyiz.html">بَابُ التَّمْيِيزِ</a></li>
+<li><a href="./istsna.html">بَابُ الِاسْتِثْنَاءِ</a></li>
+<li><a href="./bab-laaa.html">بَابُ لَا الْعَامِلَةِ عَمَلَ إِنَّ</a></li>
+<li><a href="./bab-nida.html">بَابُ النِّدَاءِ</a></li>
+<li><a href="./maful-li-ajlih.html">بَابُ الْمَفْعُولِ لِأَجْلِهِ</a></li>
+<li><a href="./maful-maah.html">بَابُ الْمَفْعُولِ مَعَهُ</a></li>
+<li><a href="./mahfudotil-asma.html">بَابُ مَخْفُوضَاتِ الْأَسْمَاءِ</a></li>
+<li><a href="./idofah.html">بَابُ الْإِضَافَةِ</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<hr id="Line2" style="display:block;width: 100%;z-index:3;">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
